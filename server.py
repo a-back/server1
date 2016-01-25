@@ -10,5 +10,4 @@ while True:
         if not data: break
         conn.send(data)
         print data 
-
     if data == "Close": conn.close() 
